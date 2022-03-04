@@ -158,6 +158,7 @@ This requires the ability
 4. Set the ability for the user 'LOCAL SERVICE' to have read access to the certificate associated with the encrypted column in SQL server.
 4a. Open MMC, add the 'Computer Account' for 'Certificates'. Under 'Certificate (Local Computer)' click all tasks and select certificate used to encrypt the columns e.g. 'Always Encrypted Auto Certificate1' click 'Manage Private Keys'.
 4b. Add, 'LOCAL SERVICE' user with FULL CONTROL. This allows the LOCAL SERVICE user read access to the certificate. This allows the default Application Pool access to the column certificate.
+
 */
 
 
